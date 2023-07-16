@@ -1,0 +1,169 @@
+.formulario {
+    margin: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border-radius: 32px;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.formulario2 {
+    margin: 18%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border-radius: 32px;
+    font-size: 20px;
+    background-color: #11131a;
+}
+
+.formulario3 {
+    margin: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border-radius: 32px;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.formulario4 {
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 5%;
+    border-radius: 32px;
+    font-size: 20px;
+    background-color: #11131a;
+}
+
+#modalModificar {
+    background-color: #ffffff40;
+}
+
+.modal-content {
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+}
+
+/* Botones */
+    #registrar {
+        background-color: #55cfff;
+        color: #000;
+        border-color: #55cfff;
+        font-size: 20px;
+    }
+
+    #registrar:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #fff;
+    }
+
+    #registrarPunto {
+        background-color: #55cfff;
+        color: #000;
+        border-color: #55cfff;
+        font-size: 20px;
+    }
+
+    #registrarPunto:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #fff;
+    }
+
+    #listar {
+        background-color: #55cfff;
+        color: #000;
+        border-color: #55cfff;
+        font-size: 20px;
+    }
+
+    #listar:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #fff;
+    }
+
+    #listarPunto {
+        background-color: #55cfff;
+        color: #000;
+        border-color: #55cfff;
+        font-size: 20px;
+    }
+
+    #listarPunto:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #fff;
+    }
+
+    #actualizar {
+        background-color: #55cfff;
+        color: #000;
+        border-color: #55cfff;
+        padding: 1%;
+        margin-top: 5%;
+    }
+
+    #actualizar:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #000000;
+    }
+
+    #actualizarDato {
+        background-color: #55cfff;
+        color: #000;
+        border-color: #55cfff;
+        padding: 1%;
+    }
+
+    #actualizarDato:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #000000;
+    }
+
+    #eliminar {
+        background-color: #eb2727;
+        color: #ffffff;
+        border-color: #eb2727;
+        padding: 1%;
+    }
+
+    #eliminar:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #000000;
+    }
+
+    @media (max-width: 1200px) {
+        #eliminar {
+            width: 80px;
+        }
+        #actualizar {
+            width: 90px;
+        }
+    }
+
+option {
+    font-size: 20px;
+}
+
+.card-body {
+    color: #fff;
+}
+
+#edicion-cards {
+    background-color: #ffffff;
+}
+
+.texto-cards {
+    color: #000000;
+}

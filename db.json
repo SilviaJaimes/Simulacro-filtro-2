@@ -1,0 +1,15 @@
+{
+  "ruta": [
+    {
+      "nombreRuta": "Del solll",
+      "id": 2
+    }
+  ],
+  "puntos": [
+    {
+      "idRuta": "2",
+      "nombrePunto": "florida",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #b3b3b3;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Menú */
+    .container-fluid, #offcanvasNavbar {
+        background-color: #000000;
+        padding: 2%;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+        font-size: 30px;
+    }
+
+    .bg-body-tertiary {
+        --bs-bg-opacity: 0;
+        background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity)) !important;
+    }
+
+    .navbar-brand {
+        color: #39b0ff;
+        font-family: 'Righteous', cursive;
+        font-size: 45px;
+    }
+
+    .navbar-brand:hover {
+        color: #39b0ffc2;
+    }
+
+    #offcanvasNavbarLabel {
+        color: #fff;
+        font-family: 'Righteous', cursive;
+        font-size: 25px;
+    }
+
+    #ingresarRutas, #ingresarPuntos {
+        color: #fff;
+    }
+
+    #ingresarRutas:hover, #ingresar:hover {
+        color: #ffffffa1;
+    }
+
+    .bi-x-lg {
+        background: none;
+        border: none;
+        color: #fff;
+    }
+
+    #opciones {
+        margin-left: 5%;
+    }
+
+
+/* Carrusel */
+    #carouselExampleInterval {
+        margin-top: 5%;
+    }
+
+    @media (max-width: 1200px){
+        #carouselExampleInterval {
+            margin-top: 10%;
+        }
+    }
+
+/* Tarjetas */
+    .subtitulo {
+        margin: 5%;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        color: #ffffff;
+        background-color: #1e5c85;
+        padding:1%;
+        border-radius: 20px;
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    .subtitulo2 {
+        margin-bottom: 3%;
+        margin-top: 10%;
+        color: #ffffff;
+        background-color: #1e5c85;
+        text-align: center;
+        padding: 1%;
+        font-size: 25px;
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    #cards {
+        margin: 10%;
+        margin-top: 5%;
+    }
+
+    .card {
+        background-color: #000000de;
+        color: #fff;
+        box-shadow: 0px 5px 5px #000;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-text {
+        font-size: 20px;
+    }
+
+    .card-img-top {
+        height: 230px;
+    }
+
+    @media (max-width: 1200px){
+        .card-img-top {
+            height: 100px;
+        }
+    }
+
+    @media (max-width: 774px) {
+        .card-img-top {
+            height: 300px;
+        }
+    }
+
+    #ubi {
+        background-color: #55cfff;
+        color: #000;
+        border-color: #55cfff;
+    }
+
+    #ubi:hover {
+        background-color: #fff;
+        border-color: #fff;
+    }
+
+/* Pie de página */
+    .info {
+        background-color: #000;
+        font-size: 17px;
+        color: #fff;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .subtitulosPie {
+        color: #39b0ff;
+    }
+
+    .informacion {
+        text-align: justify;
+    }
+
+    #redes {
+        color: #fff;
+    }
+
+    #cont {
+        margin-left: 10%;
+    }
+
+/* Botón subir */
+    #arrow {
+        color: #000000;
+        background: none;
+        border: none;
+        margin: 4%;
+        font-size: 45px;
+        margin-left: 93%;
+    }
+
+/* Mapa */
+    .mapouter{
+        background-color: #000;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 10%;
+    }
+
+    .gmap_canvas{
+        border-radius: 20px;
+        overflow: hidden;
+        background: none !important;
+        height: 400px;
+        width: 800px;
+    }

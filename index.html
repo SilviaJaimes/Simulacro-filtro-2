@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./img/bus-front-fill.svg">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./style/registro.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Gestión de rutas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bi bi-list" style="color: #fff;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="opciones">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#rutas" id="ingresarRutas">Rutas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#puntos" id="ingresarPuntos">Puntos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/img/foto1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/foto2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/foto3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/foto4.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="subtitulo">
+        <h2><strong>Lugares más concurridos</strong></h2>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4" id="cards">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://qhubobucaramanga.com/wp-content/uploads/2022/04/florida-8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <center>
+                        <h5 class="card-title">Floridablanca</h5>
+                        <a href="https://www.google.com/maps/place/Floridablanca,+Santander/@7.0780988,-73.1399488,13z/data=!3m1!4b1!4m6!3m5!1s0x8e683f61d96e0699:0x247ca9bc744c07f0!8m2!3d7.0720568!4d-73.1068227!16s%2Fg%2F119tnmgyt?entry=ttu"
+                            class="btn btn-primary" target="_blank" id="ubi">Ubicación</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://www.upb.edu.co/es/imagenes/img-sobrelaciudadbucaramanga-cam-1464102319822.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <center>
+                        <h5 class="card-title">Bucaramanga</h5>
+                        <a href="https://www.google.com/maps/place/Bucaramanga,+Santander/@7.1193691,-73.2152074,12z/data=!3m1!4b1!4m6!3m5!1s0x8e68157af751c0ed:0x75a0e4551148c36c!8m2!3d7.119349!4d-73.1227416!16zL20vMDM3eXNj?entry=ttu" 
+                            class="btn btn-primary" target="_blank" id="ubi">Ubicación</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://www.wradio.com.co/resizer/i2zSzgpJB6Cy8_hQbzW4_9H0s0M=/650x488/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/UMZTMMKAFFKX5N6QH5CABK6IKY.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <center>
+                        <h5 class="card-title">Piedecuesta</h5>
+                        <a href="https://www.google.com/maps/place/Piedecuesta,+Santander/@6.9880061,-73.0745553,14z/data=!3m1!4b1!4m6!3m5!1s0x8e6847af37e0be91:0x66e8281d38a19920!8m2!3d6.991539!4d-73.053998!16s%2Fm%2F02qcyf8?entry=ttu" 
+                            class="btn btn-primary" target="_blank" id="ubi">Ubicación</a>
+                    </center>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://caracoltv.brightspotcdn.com/dims4/default/78f05ae/2147483647/strip/true/crop/1000x716+0+0/resize/1000x716!/quality/90/?url=https%3A%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fbluradio%2Ffoto_alcaldia_giron.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <center>
+                        <h5 class="card-title">Girón</h5>
+                        <a href="https://www.google.com/maps/place/Gir%C3%B3n,+Santander/@7.0736827,-73.1875277,14z/data=!3m1!4b1!4m6!3m5!1s0x8e683e90912b50ff:0xe9aa9708e4b018c6!8m2!3d7.0803339!4d-73.171039!16s%2Fm%2F02qcvw0?entry=ttu" 
+                            class="btn btn-primary" target="_blank" id="ubi">Ubicación</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RUTAS -->
+
+    <div class="subtitulo2">
+        <h2 id="rutas"><strong>Ingrese la ruta</strong></h2>
+    </div>
+
+    <div class="formulario">
+        <form class="row g-3" id="form">
+            <div class="col-md-12">
+                <label for="nombreRuta" class="form-label">Nombre de la ruta</label>
+                <input type="text" class="form-control" name="nombreRuta" id="nombreRuta" placeholder="Ruta" required>
+            </div><br>
+            <center>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" data-accion="registrar" value="registrar" id="registrar">Guardar</button>
+                </div>
+            </center>
+        </form>
+    </div>
+
+    <div class="formulario2">
+        <!-- <center>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary" data-accion="listar" value="listar" id="listar">Listar</button>
+            </div><br>
+        </center> -->
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre de la ruta</th>
+                    <th scope="col">Eliminar/Actualizar</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyRegistro">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="modal fade" id="modalModificar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Actualización de la ruta</h1>
+                    <button type="button" class="bi bi-x-lg" data-bs-dismiss="modal" aria-label="Close" style="color: #fff;"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="col-12" id="formActualizar">
+                        <div class="col-md-12">
+                            <label for="nombreRuta" class="form-label">Nombre de la ruta</label>
+                            <input type="text" class="form-control" name="nombreRuta" id="nombreRuta2" placeholder="Ruta" required>
+                        </div>
+                        <center>
+                            <input type="submit" class="btn btn-primary" data-accion="actualizar" value="Actualizar" id="actualizar">
+                        </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- PUNTOS -->
+
+    <div class="subtitulo2">
+        <h2 id="puntos"><strong>Ingrese el punto</strong></h2>
+    </div>
+
+    <div class="formulario3">
+        <form class="row g-3" id="form2">
+            <div class="col-md-12">
+                <label for="nombrePunto" class="form-label">Elija la ruta</label>
+                <select name="idRuta" id="selectRuta"  class="form-select" required>
+                </select>
+                <label for="inputZip" class="form-label">Ingrese el nombre del punto</label>
+                <input type="text" class="form-control" id="nombrePunto" name="nombrePunto" required>
+            </div><br>
+            <center>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" data-accion="registrarPunto" value="registrarPunto" id="registrarPunto">Guardar</button>
+                </div>
+            </center>
+        </form>
+    </div>
+
+    <div class="formulario4">
+        <div class="row row-cols-1 row-cols-md-3 g-4"  id="cardRegistroPunto">
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalPuntos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Actualización del punto</h1>
+                    <button type="button" class="bi bi-x-lg" data-bs-dismiss="modal" aria-label="Close" style="color: #fff;"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3" id="formActualizarPuntos">
+                        <div class="col-md-12">
+                            <label for="nombrePunto" class="form-label">Elija la ruta</label>
+                            <select name="idRuta" id="selectRuta2"  class="form-select" required>
+                            </select>
+                            <label for="nombrePunto2" class="form-label">Ingrese el nombre del punto</label>
+                            <input type="text" class="form-control" id="nombrePunto2" name="nombrePunto" required>
+                        </div><br>
+                        <center>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary" data-accion="registrarPunto" value="registrarPunto" id="registrarPunto">Guardar</button>
+                            </div>
+                        </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mapouter">
+        <center>
+            <div class="gmap_canvas">
+                <iframe width="820" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://alarmclock.cloud/">online alarm clock</a>
+                <br>
+                <a href="https://online.stopwatch-timer.net/">timer stopwatch</a>
+                <br>
+                <a href="https://www.embedmaps.co">embed google maps api</a>
+            </div>
+        </center>
+    </div>
+
+    <div class="info">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-4">
+                    <h3 class="subtitulosPie">Rutas</h3>
+                    <p class="informacion">La planeación de rutas de reparto es el proceso de trazar las rutas de distribución sobre sobre un mapa, 
+                        identificando previamente cuáles son todos los puntos de entrega a visitar (domicilios de los clientes), cuáles son las vías 
+                        más directas y que presentan mejores condiciones (en cuanto a distancia, asfaltado, niveles de tráfico, etc.), y cuántos vehículos 
+                        están disponibles para cubrir cada zona de entregas.</p>
+            </div>
+            <div class="col-3" id="cont">
+                <h3 class="subtitulosPie">Contacto</h3>
+                <a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram" id="redes">  Rutas</a><br>
+                <a href="https://www.facebook.com/" target="_blank" class="bi bi-facebook" id="redes">  Rutas</a><br>
+                <a href="https://web.whatsapp.com/" target="_blank" class="bi bi-whatsapp" id="redes">  +57 315 345 8740</a><br>
+                <a href="https://gmail.com/" target="_blank" class="bi bi-envelope-at" id="redes">  Rutas@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#menu">
+        <button class="bi bi-arrow-up-circle-fill fixed-bottom" id="arrow">
+        </button>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./js/main.js" type="module" defer></script>
+</body>
+</html>
